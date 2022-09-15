@@ -81,6 +81,13 @@ a:hover {
 {
     text-align: center;
 }
+
+.bloc-7, .col-sm-6
+{
+    float: unset;
+    margin-right: auto;
+    margin-left: auto;
+}
 img.img-responsive.portfolio-thumb {
     width: 100%;
 }
