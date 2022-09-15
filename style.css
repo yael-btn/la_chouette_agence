@@ -71,6 +71,24 @@ a:hover {
     -o-background-size: auto!important;
     background-size: auto!important;
 }
+.col-sm-12 p
+{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.col-sm-12, .col-sm-6
+{
+    text-align: center;
+}
+img.img-responsive.portfolio-thumb {
+    width: 100%;
+}
+
+.footer .col-sm-3
+{
+    width: unset;
+}
 
 .bg-repeat {
     background: repeat;
@@ -93,6 +111,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    opacity: 0;
 }
 
 .b-parallax {
@@ -360,6 +379,22 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.row 
+{
+  
+}
+
+.container_bloc-lg
+{
+    line-height: 33px;
+}
+
+.nav-union
+{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (min-width: 768px) {
@@ -700,8 +735,8 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    max-width: 100%;
+
 }
 
 h2 {
@@ -753,7 +788,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(243 151 108);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +810,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
