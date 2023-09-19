@@ -788,6 +788,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display: flex;
 }
 
 .avatar {
@@ -864,7 +865,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation-min.jpg");
 }
 
 @media (max-width: 1024px) {
